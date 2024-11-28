@@ -1,0 +1,47 @@
+body{
+    background: url(contacting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu{
+    height: 100px;
+    background: gray;
+    text-align: center;
+}
+
+.back{
+    background: orange;
+    width: 20%;
+    height: 50%;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.text{
+    text-align: center;
+    font-size: 24px;
+    font-family: arial;
+    color:orange;
+    font-weight: bold;
+}
+.box{
+    margin-top: 10%;
+    margin-left: 15%;
+    text-align: center;
+    backdrop-filter: blur(50px);
+    background: transparent;
+    width: 70%;
+    border-radius: 10px;
+    height: 120px;
+}
+
+.tel{
+    color:brown;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+i{
+    color:red;
+}

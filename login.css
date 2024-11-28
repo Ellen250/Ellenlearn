@@ -1,0 +1,154 @@
+body{
+    background: url(new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    float: right;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    font-style: none;
+    font-size: 18px;
+    margin-top: -2px;
+    margin-right: 70px;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(255, 213, 0);
+    font-family: arial;
+    font-weight:bold;
+    transition: 0.4s ease-in-out;
+    margin-top: 10px;
+}
+ul li a:hover{
+    color: #848004;
+
+}
+.search{
+    text-align: right;
+    margin-left: 75%;
+    margin-top: 20px;
+    display: inline-flex;
+}
+.sear{
+    text-align:center;
+    color: #333;
+    width: 80px;
+    height: 35px;
+    background-color: orange;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.searb{
+    height: 35px;
+    width: 250px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.wrapper{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 500px;
+    width:35%;
+    height: 80%;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    border-color: orange;
+}
+h1{
+    color: green;
+}
+.rem{
+    color:#a4fb6b;
+    display: inline-flex;
+}
+.submit{
+    background: orange;
+    color:black;
+    font-weight: bold;
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.submit:hover{
+    color: green;
+    background: rgb(0, 255, 110);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.new:hover{
+    font-size: 20px;
+}
+.forgot:hover{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.nbr:hover{
+    font-size:  20px;
+    color:green;
+}
+.pass:hover{
+    font-size: 20px;
+    color:green;
+}
+.contact:hover{
+    font-size: 20px;
+}
+.nbr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    width:250px;
+    height:40px;
+    text-align:center;
+    margin-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:  2px solid green;
+    background: transparent;
+    outline: none;
+}
+.pass{
+    width:250px;
+    height:40px;
+    text-align:center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+}
+
+
+.new{
+    text-decoration: none;
+    color:#a4fb6b;
+}
+.ac{
+    color:white;
+}
+.hr{
+    width: 90%;
+}
+.fa{
+    margin-top: 20px;
+   margin-right: 20px;
+} 
+.dev{
+    font-size: 18px;
+    color: blue;
+}

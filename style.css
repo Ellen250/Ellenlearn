@@ -1,0 +1,119 @@
+ *{
+    MARGIN: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ :root{
+    --text-color:rgb(110,110,110,);
+ }
+
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:url(money2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .container{
+   width: 500px;
+   background: transparent;
+   padding: 30px;
+   position: relative;
+   backdrop-filter: blur(10px);
+ }
+ h6{
+   font-size: 20px;
+   color: var(--text-color);
+ }
+ span{
+   position: absolute;
+   right: 34px;
+   top: 28px;
+   font-size: 18px;
+   color: orange;
+ }
+ h1{
+  color: orange;
+   padding: 30px 0px;
+   font-size: 40px;
+ }
+ h2{
+  color: blue;
+  font-size: medium;
+ }
+ i{
+  color: blue;
+  font-size: medium;
+ }
+ form label{
+   color: var(--text-color);
+   text-transform: uppercase;
+   position: relative;
+   font-size: 10px;
+   word-spacing: 4px;
+ }
+ form select{
+   width: 100%;
+   outline:none;
+   border: none;
+   border-bottom: 1px solid rgb(223,223,223);
+   text-transform: capitalize;
+   padding-top: 3px;
+   color: var(--text-color);
+   padding-bottom: 3px;
+   font-size: 18px;
+   margin-left: -3px;
+   margin-bottom: 20px;
+   background-color: transparent;
+ }
+ form .cardno{
+   width: 100%;
+   outline: none;
+   border: none;
+   border-bottom: 1px solid rgb(223,223,223);
+   padding-top: 5px;
+   margin-bottom: 20px;
+   padding-right: 30px;
+   color: var(--text-color);
+   font-size: 18px;
+   background-color: transparent;
+   padding-bottom: 5px;
+ }
+ .float{
+   display: flex;
+ }
+ .cvv , .validtill{
+   border: none;
+   border-bottom: 1px solid rgb(207,207,207);
+   outline: none;
+   width: 130px;
+   padding-top: 14px;
+   margin-bottom: 56px;
+   color: var(--text-color);
+   background-color: transparent;
+   font-size: 18px;
+ }
+ p{
+   text-align: center;
+   color:black;
+   font-weight: bold;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+ .btn{
+  margin-top: 20px;
+  margin-left: 150px;
+  text-decoration: none;
+  background: orange;
+  color:black;
+  font-weight: bold;
+  width: 120px;
+  height: 45px;
+  border-radius: 20px;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}

@@ -1,0 +1,36 @@
+*{margin: 0;padding: 0;}
+body{
+    background: rgb(0, 0, 0);
+}
+.bar{
+    padding: 15px;
+    background-color: rgb(253, 203, 203);
+}
+.btn{
+    width:100px;
+    height: 50px;
+    background: orange;
+    color: #000;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+.level1{
+    width:60%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+p{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background: white;
+}
+.fa{
+    margin-left: 20px;
+    color: green;
+}

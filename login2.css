@@ -1,0 +1,124 @@
+body{
+    background:#6678;
+}
+h1{
+    font-size: 70px;
+    color:#674;
+    text-align: center;
+}
+.wrapper{
+    text-align: center;
+    margin-left: 500px;
+    width:28%;
+    height: 70%;
+    border-radius: 25px;
+    background: black;
+    backdrop-filter: blur(10px);
+    border-color: #848004;
+}
+h2{
+    color:#674;
+}
+.rem{
+    color:#a4fb6b;
+    display: inline-flex;
+}
+.submit{
+    background: orange;
+    color:black;
+    font-weight: bold;
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.submit:hover{
+    color: green;
+    background: rgb(0, 255, 110);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.new:hover{
+    font-size: 20px;
+}
+.forgot:hover{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.nbr:hover{
+    font-size:  20px;
+    color:green;
+}
+.pass:hover{
+    font-size: 20px;
+    color:green;
+}
+.contact:hover{
+    font-size: 20px;
+}
+.nbr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    width:250px;
+    height:40px;
+    text-align:center;
+    margin-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:  2px solid orangered;
+    background: transparent;
+    outline: none;
+}
+.pass{
+    width:250px;
+    height:40px;
+    text-align:center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid orangered;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+}
+.new{
+    text-decoration: none;
+    color:#a4fb6b;
+}
+.ac{
+    color:white;
+}
+.hr{
+    width: 90%;
+}
+.contact{
+    margin-left:2px;
+    margin-top: 9px;
+}
+.email{
+    margin-left: 6px;
+}
+.web{
+    margin-left: 10px;
+}
+.dev{
+    font-size: 18px;
+    color:yellow;
+}
+.text{
+    text-align: left;
+    margin-top: 100px;
+    font-size: 28px;
+    color: yellow;
+    margin-left: 8px;
+    font-weight: bold;
+}
+.guide{
+    color: #009dff;
+}
+.name{
+    color: rgb(0, 0, 76);
+    font-size: 30px;
+}

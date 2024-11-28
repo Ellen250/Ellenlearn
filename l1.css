@@ -1,0 +1,47 @@
+*{margin: 0;padding: 0;}
+body{
+    background: #000;
+}
+.container{
+    background-color: rgb(253, 203, 203);
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: green;
+}
+.answer{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin: 8px;
+}
+.submit{
+    background: orange;
+    color: #000;
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    margin: 10px;
+    color: blue;
+    animation: run 1s ease-out;
+}
+p{
+    font-family: Impact, sans-serif;
+    font-size: 18px;
+    color: orange;
+    
+}
